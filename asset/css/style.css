@@ -69,3 +69,59 @@ footer,
 .push {
   height: 105px;
 }
+
+/* Portfolio */
+
+#box1 { 
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/opm.jpg);
+ }
+
+#box2 { 
+width: 200px;
+height: 200px;
+background-image: url(../img/mhw.jpg); 
+}
+
+#box3 {
+width: 200px;
+height: 200px; 
+background-image: url(../img/trivia.jpg); 
+}
+
+#box4 { 
+width: 200px;
+height: 200px;
+background-image: url(../img/info.jpg); 
+}
+
+#box5 { 
+width: 200px;
+height: 200px;
+background-image: url(../img/rock.jpg); 
+top: 10%;
+
+}
+
+/* Contact */
+
+.content textarea {
+  height: 200px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  width: 450px;
+}
+
+.info input, .content textarea {
+  width: 450px;
+}
+
+.bttn {
+  height: 30px;
+  width: 85px;
+  background: #4aaaa5;
+  box-shadow: 0ch;
+  color: white;
+  border: none;
+}
