@@ -72,31 +72,51 @@ footer,
 
 /* Portfolio */
 
-#box1 { 
+#box { 
+  margin: 20px; 
+    }
+
+#row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.grid1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#box-box1 { 
   width: 200px;
   height: 200px;
   background-image: url(../img/opm.jpg);
  }
 
-#box2 { 
+#box-box2 { 
 width: 200px;
 height: 200px;
 background-image: url(../img/mhw.jpg); 
 }
 
-#box3 {
+#box-box3 {
 width: 200px;
 height: 200px; 
 background-image: url(../img/trivia.jpg); 
 }
 
-#box4 { 
+#box-box4 { 
 width: 200px;
 height: 200px;
 background-image: url(../img/info.jpg); 
 }
 
-#box5 { 
+#box-box5 { 
 width: 200px;
 height: 200px;
 background-image: url(../img/rock.jpg); 
@@ -106,15 +126,20 @@ top: 10%;
 
 /* Contact */
 
+.info input {
+  width: 900px;
+}
+
 .content textarea {
   height: 200px;
   padding: 10px 0;
   margin-bottom: 20px;
-  width: 450px;
+  width: 900px;
 }
 
-.info input, .content textarea {
-  width: 450px;
+.container textarea {
+  width: 900px;
+  height: 200px;
 }
 
 .bttn {
